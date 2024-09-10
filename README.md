@@ -1,3 +1,5 @@
+<h1><b>Crypto App</b> Project</h1>
+
 We use https://www.coingecko.com/ site to use from its apis. and this site some api give us.
 
 # React + Vite
