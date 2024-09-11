@@ -2,11 +2,14 @@
 
 We use https://www.coingecko.com/ site to use from its apis. and this site some api give us.
 
-
 we are two types of components
-1. templates - total componemts like Search, Table, ...
-2. modules   - detailed components 
 
+1. templates - total componemts like Search, Table, ...
+2. modules - detailed components
+
+<hr/>
+
+I used toLocaleString() for prices, and It separates the numbers three by three. like 1,000,000
 
 # React + Vite
 
