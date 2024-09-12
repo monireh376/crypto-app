@@ -13,7 +13,7 @@ I used toLocaleString() for prices, and It separates the numbers three by three.
 
 <hr/>
 
-<b>spinner</b>
+<b>spinner</b><br/>
 I need spinner while data of the table are loaded, so I use <b>react-loader-spinner
 </b> library.
 https://mhnpd.github.io/react-loader-spinner/
