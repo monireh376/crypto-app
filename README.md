@@ -11,6 +11,17 @@ we are two types of components
 
 I used toLocaleString() for prices, and It separates the numbers three by three. like 1,000,000
 
+<hr/>
+
+<b>spinner</b>
+I need spinner while data of the table are loaded, so I use <b>react-loader-spinner
+</b> library.
+https://mhnpd.github.io/react-loader-spinner/
+
+and for insrtall : npm i react-loader-spinner
+
+<hr/>
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
