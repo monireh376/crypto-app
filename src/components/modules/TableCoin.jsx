@@ -5,7 +5,7 @@ import chartDown from "../../assets/chart-down.svg";
 
 import styles from "./TableCoin.module.css";
 
-function TableCoin({ coins, isLoading, currency }) {
+function TableCoin({ coins, isLoading, currency, setChart }) {
   return (
     <div className={styles.container}>
       {isLoading ? (
@@ -24,7 +24,12 @@ function TableCoin({ coins, isLoading, currency }) {
           </thead>
           <tbody>
             {coins.map((coin) => (
-              <TableRow key={coin.id} coin={coin} currency={currency} />
+              <TableRow
+                key={coin.id}
+                coin={coin}
+                currency={currency}
+                setChart={setChart}
+              />
             ))}
           </tbody>
         </table>
@@ -45,6 +50,7 @@ const TableRow = ({
     total_volume,
   },
   currency,
+  setChart,
 }) => {
   const getCurrency_loccal = () => {
     switch (currency) {
@@ -56,10 +62,14 @@ const TableRow = ({
         return "¥";
     }
   };
+
+  const showHandler = () => {
+    setChart(true);
+  };
   return (
     <tr>
       <td>
-        <div className={styles.symbol}>
+        <div className={styles.symbol} onClick={showHandler}>
           <img src={image} alt="" />
           <span>{symbol.toUpperCase()}</span>
         </div>
