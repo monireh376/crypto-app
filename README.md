@@ -21,6 +21,14 @@ https://mhnpd.github.io/react-loader-spinner/
 and for insrtall : npm i react-loader-spinner
 
 <hr/>
+<h1><b>Recharts</b></h1>
+
+In this projet, I use from Recharts library that exists in https://recharts.org/en-US/   site. This library is lighter and faster.
+
+<br/>
+<h3>Installation</h3>
+npm install recharts
+<hr/>
 
 # React + Vite
 
